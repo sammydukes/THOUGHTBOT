@@ -3,7 +3,7 @@
     margin: 0;
 } */
 body{
-    background-color: rgb(45, 2, 2);
+    background-color: rgb(32, 19, 19);
     width: 100%;
     color: white;
     /* font-family: 'Courier New'; */
@@ -61,7 +61,7 @@ h2{
     font-size: 3rem;
 }
 .hov{
-    color: yellow;
+    color: #fee49d;
     text-decoration: none;
 }
 .hov:hover{
