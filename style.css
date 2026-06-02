@@ -6,6 +6,7 @@ body{
     background-color: rgb(45, 2, 2);
     width: 100%;
     color: white;
+    /* font-family: 'Courier New'; */
    
 }
 /* p{
@@ -102,19 +103,22 @@ hr{
     margin-left: 15px;
 }
 .mt:hover{
-    color: orange;
+    color: rgb(255, 199, 38);
     text-decoration: none;
 }
 .Topics{
     font-size: 32px;
     color: white;
     text-decoration: none;
+    line-height: 36px;
+    font-family:'Courier New' ;
 }
 .Topics:hover{
-    color: orange;
+    color: rgb(255, 199, 38);
 }
 .par2{
     font-size: 18px;
+    
 }
 .IT{
     font-size: 14px;
@@ -122,7 +126,7 @@ hr{
     text-decoration: none;
 }
 .IT:hover{
-    color: orange;
+    color: rgb(255, 199, 38);
 }
 .null{
     margin-bottom: 25px;
