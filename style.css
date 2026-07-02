@@ -3,60 +3,70 @@
     margin: 0;
 } */
 :root {
-        --sam-own: #201313;
-        --my-own:#201313;
+    --sam-own: #201313;
+    --my-own: #201313;
 }
 
-.body{
+.body {
     font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.toti{
+
+.toti {
     color: white;
 }
-.nav-link{
+
+.nav-link {
     color: white;
 }
-.buck{
 
-    font-family: "Jet Brains", Monaco, Consolas, "Lucida Console", monospace;    
+.buck {
+
+    font-family: "Jet Brains", Monaco, Consolas, "Lucida Console", monospace;
 }
 
-.logo{
+.logo {
     color: white;
 
 }
-.nav{
-     text-decoration: none; 
-   color: white;
-   margin: 2px 20px;
+
+.nav {
+    text-decoration: none;
+    color: white;
+    margin: 2px 20px;
 }
 
-h2{
+h2 {
     font-size: 3rem;
 }
-.hov{
+
+.hov {
     color: #fee49d;
     text-decoration: none;
 }
-.hov:hover{
+
+.hov:hover {
     color: orange;
     text-decoration: underline;
 }
-p{
+
+p {
     font-size: 24px;
     font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-hr{
+
+hr {
     border: 2px solid grey;
     width: 100%;
     margin-bottom: 25px;
 }
-.navbar2{
+
+.navbar2 {
     /* display: flex; */
     gap: 50px;
     margin-bottom: 50px;
 }
-.btn2{
+
+.btn2 {
     border: 1px solid grey;
     /* border-radius: ; */
     color: white;
@@ -65,125 +75,149 @@ hr{
     text-decoration: none;
     text-align: center;
     /* font-size: 22px; */
-    
+
 }
-.btn2:hover{
+
+.btn2:hover {
     background-color: rgb(225, 225, 78);
 }
-.mt{
+
+.mt {
     color: white;
     text-decoration: underline dotted;
     font-size: 22px;
-    
+
     /* margin-left: 15px; */
 }
-.mt:hover{
+
+.mt:hover {
     color: rgb(255, 199, 38);
     text-decoration: none;
 }
-.Topics{
+
+.Topics {
     font-size: 32px;
     color: white;
     text-decoration: none;
     line-height: 36px;
     font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.Topics:hover{
+
+.Topics:hover {
     color: rgb(255, 199, 38);
 }
-.par2{
+
+.par2 {
     font-size: 18px;
     color: white;
     font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    
+
 }
-.IT{
+
+.IT {
     font-size: 14px;
     color: white;
     text-decoration: none;
 }
-.IT:hover{
+
+.IT:hover {
     color: rgb(255, 199, 38);
 }
-.null{
+
+.null {
     margin-bottom: 25px;
 }
-h3{
-    font-size: 28px;    
+
+h3 {
+    font-size: 28px;
 }
-.sign{
+
+.sign {
     background-color: rgb(63, 30, 30);
     /* border: 1px solid; */
     border-radius: 5px;
     width: 100%;
     min-height: 200px;
     padding: 10px 30px;
-    
+
 
 
 }
-.par3{
+
+.par3 {
     font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-input{
+
+input {
     width: 60%;
     background-color: rgb(63, 30, 30);
     border: 1px;
 }
-.sus{
+
+.sus {
     font-size: 22px;
     color: white;
-    background-color: brown;  
+    background-color: brown;
     padding: 10px 30px;
     border-radius: 20px;
     text-decoration: none;
     margin-left: 15px;
 }
-.duke{
+
+.duke {
     color: white;
 }
-.par3{
+
+.par3 {
     font-size: 16px;
     margin-left: 20px;
     color: white;
 }
-.feeds{
+
+.feeds {
     color: white;
     text-decoration: underline dotted;
     font-size: 22px;
-    
+
     /* margin-left: 15px; */
 }
-.feeds:hover{
+
+.feeds:hover {
     color: orange;
     text-decoration: none;
 }
-.pp{
+
+.pp {
     display: flex;
     gap: 80px;
 }
-.footer{
+
+.footer {
     height: 78dvh;
-    width: 98.8vw;
+    width: 100%;
     display: flex;
     border-top: 2px solid #2F1C1C;
     justify-content: space-between;
     position: relative;
 }
-.foot{
+
+.foot {
     /* border: 1px solid white; */
     /* width: 40%; */
     padding: 30px;
 }
-.foot1{
+
+.foot1 {
     width: 42.5%;
     padding-top: 40px;
 }
-.foot1 img{
+
+.foot1 img {
     width: 56%;
 }
-.foot1 small{
-    position: absolute;
+
+.foot1 small {
+    /* position: absolute; */
     bottom: 60px;
     left: 35px;
     line-height: 25px;
@@ -191,199 +225,241 @@ input{
     font-family: "PPMori", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #C1BAB7;
 }
-.foot2{
+
+.foot2 {
     width: 52%;
     padding-top: 50px;
-    position: relative;
+    /* position: relative; */
     padding-left: 40px;
+    display: flex;
+    padding:20px;
+    gap: 20px;
 }
-.cas{
+
+.cas {
     font-size: 20px;
     font-family: "PPMori", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 100;
 }
-.serv{
+
+.serv {
     color: #EAE6E4;
     text-decoration: underline dotted;
 }
-.serv:hover{
+
+.serv:hover {
     color: #FFC726;
     text-decoration: #201313 underline;
     transition-duration: 0.2s;
 }
-.stud{
-    color: #EAE6E4;
-    text-decoration: underline dotted;
-    line-height: 30px;
-}
-.stud:hover{
-    color: #FFC726;
-    text-decoration: #201313 underline;
-    transition-duration: 0.2s;
-}
-.reso{
+
+.stud {
     color: #EAE6E4;
     text-decoration: underline dotted;
     line-height: 30px;
 }
-.reso:hover{
+
+.stud:hover {
     color: #FFC726;
     text-decoration: #201313 underline;
     transition-duration: 0.2s;
 }
-.talk{
+
+.reso {
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+
+.reso:hover {
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+
+.talk {
     color: #FFE7A3;
     text-decoration: underline;
     line-height: 30px;
 }
-.talk:hover{
+
+.talk:hover {
     color: #FFC726;
     text-decoration: #201313 underline;
     transition-duration: 0.25s;
 }
-.cas2{
-position: absolute;
-top: 45px;
-left: 264px;
+
+.cas2 {
+    /* position: absolute; */
+    /* top: 45px; */
+    /* left: 264px; */
 }
-.comp{
+
+.comp {
     color: #EAE6E4;
     text-decoration: underline dotted;
     line-height: 30px;
 }
-.comp:hover{
+
+.comp:hover {
     color: #FFC726;
     text-decoration: #201313 underline;
     transition-duration: 0.2s;
 }
-.care{
+
+.care {
     color: #EAE6E4;
     text-decoration: underline dotted;
     line-height: 30px;
 }
-.care:hover{
+
+.care:hover {
     color: #FFC726;
     text-decoration: #201313 underline;
     transition-duration: 0.2s;
 }
-.blog{
+
+.blog {
     color: #EAE6E4;
     text-decoration: underline dotted;
     line-height: 30px;
 }
-.blog:hover{
+
+.blog:hover {
     color: #FFC726;
     text-decoration: #201313 underline;
     transition-duration: 0.2s;
 }
-.even{
+
+.even {
     color: #EAE6E4;
     text-decoration: underline dotted;
     line-height: 30px;
 }
-.even:hover{
+
+.even:hover {
     color: #FFC726;
     text-decoration: #201313 underline;
     transition-duration: 0.2s;
 }
-.spon{
+
+.spon {
     color: #EAE6E4;
     text-decoration: underline dotted;
     line-height: 30px;
 }
-.spon:hover{
+
+.spon:hover {
     color: #FFC726;
     text-decoration: #201313 underline;
     transition-duration: 0.2s;
 }
-.stor{
+
+.stor {
     color: #EAE6E4;
     text-decoration: underline dotted;
     line-height: 30px;
 }
-.stor:hover{
+
+.stor:hover {
     color: #FFC726;
     text-decoration: #201313 underline;
     transition-duration: 0.2s;
 }
-.purp{
+
+.purp {
     color: #EAE6E4;
     text-decoration: underline dotted;
     line-height: 30px;
 }
-.purp:hover{
+
+.purp:hover {
     color: #FFC726;
     text-decoration: #201313 underline;
     transition-duration: 0.2s;
 }
-.cas3{
+
+.cas3 {
+    /* position: absolute; */
+    /* top: 45px; */
+    /* right: 115px; */
+}
+
+.mast {
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+
+.mast:hover {
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+
+.blue {
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+
+.blue:hover {
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+
+.gith {
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+
+.gith:hover {
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+
+.yout {
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+
+.yout:hover {
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+
+.twit {
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+
+.twit:hover {
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+
+.feed {
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+
+.feed:hover {
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+
+.foot2 small {
     position: absolute;
-    top: 45px;
-    right: 115px;
-}
-.mast{
-    color: #EAE6E4;
-    text-decoration: underline dotted;
-    line-height: 30px;
-}
-.mast:hover{
-    color: #FFC726;
-    text-decoration: #201313 underline;
-    transition-duration: 0.2s;
-}
-.blue{
-    color: #EAE6E4;
-    text-decoration: underline dotted;
-    line-height: 30px;
-}
-.blue:hover{
-    color: #FFC726;
-    text-decoration: #201313 underline;
-    transition-duration: 0.2s;
-}
-.gith{
-    color: #EAE6E4;
-    text-decoration: underline dotted;
-    line-height: 30px;
-}
-.gith:hover{
-    color: #FFC726;
-    text-decoration: #201313 underline;
-    transition-duration: 0.2s;
-}
-.yout{
-    color: #EAE6E4;
-    text-decoration: underline dotted;
-    line-height: 30px;
-}
-.yout:hover{
-    color: #FFC726;
-    text-decoration: #201313 underline;
-    transition-duration: 0.2s;
-}
-.twit{
-    color: #EAE6E4;
-    text-decoration: underline dotted;
-    line-height: 30px;
-}
-.twit:hover{
-    color: #FFC726;
-    text-decoration: #201313 underline;
-    transition-duration: 0.2s;
-}
-.feed{
-    color: #EAE6E4;
-    text-decoration: underline dotted;
-    line-height: 30px;
-}
-.feed:hover{
-    color: #FFC726;
-    text-decoration: #201313 underline;
-    transition-duration: 0.2s;
-}
-.foot2 small{
-    position: absolute;
-    bottom: 90px;
+    bottom: 0px;
     right: 180px;
     padding-left: 40px;
     /* border: 1px solid honeydew; */
@@ -392,40 +468,63 @@ left: 264px;
     font-family: "PPMori", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
-.ost{
+
+.ost {
     text-decoration: 1.6px underline dotted;
 }
-.ost:hover{
+
+.ost:hover {
     text-decoration: none;
 }
-.ond{
+
+.ond {
     text-decoration: 1.6px underline dotted;
     padding-left: 12px;
 }
-.ond:hover{
+
+.ond:hover {
     text-decoration: none;
 }
-.ord{
+
+.ord {
     text-decoration: 1.6px underline dotted;
 }
-.ord:hover{
+
+.ord:hover {
     text-decoration: 0.01px underline dotted;
 }
-.oth{
-    text-decoration: 1.6px underline dotted;
-    padding-left: 12px;
-}
-.oth:hover{
-    text-decoration: 0.01px underline dotted;
-}
-.ath{
+
+.oth {
     text-decoration: 1.6px underline dotted;
     padding-left: 12px;
 }
-.ath:hover{
+
+.oth:hover {
     text-decoration: 0.01px underline dotted;
 }
-small{
+
+.ath {
+    text-decoration: 1.6px underline dotted;
+    padding-left: 12px;
+}
+
+.ath:hover {
+    text-decoration: 0.01px underline dotted;
+}
+
+small {
     font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color:white;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .pp {
+        display: block;
+    }
+    footer {
+        display:flex;
+        flex-direction: column;
+        padding: 5px;      
+    }
+
 }
