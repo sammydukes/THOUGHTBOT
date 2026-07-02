@@ -7,6 +7,9 @@
         --my-own:#201313;
 }
 
+.body{
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .toti{
     color: white;
 }
@@ -41,6 +44,7 @@ h2{
 }
 p{
     font-size: 24px;
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 hr{
     border: 2px solid grey;
@@ -82,7 +86,7 @@ hr{
     color: white;
     text-decoration: none;
     line-height: 36px;
-    font-family:'Courier New' ;
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .Topics:hover{
     color: rgb(255, 199, 38);
@@ -90,6 +94,7 @@ hr{
 .par2{
     font-size: 18px;
     color: white;
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
     
 }
 .IT{
@@ -116,6 +121,9 @@ h3{
     
 
 
+}
+.par3{
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 input{
     width: 60%;
@@ -416,4 +424,8 @@ left: 264px;
 }
 .ath:hover{
     text-decoration: 0.01px underline dotted;
+}
+small{
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:white;
 }
